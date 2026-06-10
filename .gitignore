@@ -1,0 +1,64 @@
+# ---- Build output ----
+build/
+cmake-build-*/
+out/
+*.out
+*.app
+
+# ---- CMake ----
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*_deps/
+_deps/
+
+# ---- IDE / editors (CLion, VS, VS Code) ----
+.idea/
+.vs/
+.vscode/
+*.user
+
+# ---- Compiled objects / libraries / binaries ----
+*.o
+*.obj
+*.slo
+*.lo
+*.a
+*.la
+*.lai
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.d
+
+# ---- Precompiled headers ----
+*.gch
+*.pch
+
+# ---- Fortran module files (CMake/GTest toolchain artifacts) ----
+*.mod
+*.smod
+
+# ---- Doxygen generated documentation ----
+docs/html/
+docs/latex/
+docs/rtf/
+html/
+latex/
+rtf/
+
+# ---- Misc / OS ----
+*.bak_*
+*.zip
+__pycache__/
+*.pyc
+venv/
+.DS_Store
+__MACOSX
+Thumbs.db
+ehthumbs.db
+desktop.ini
